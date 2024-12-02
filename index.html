@@ -3,32 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Maicon Souza da Silva">
-    <title>M7 Informática e Variedades</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans&family=Pacifico&family=Parkinsans:wght@300..800&family=Poppins:wght@100&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <title>Bem-Vindo à M7</title>
+    <link rel="stylesheet" href="./_css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="h-container-txtMove">Site está em Desenvolvimento</div>
-        <nav class="h-nav">
-            <div class="h-container-logo">
-                <img src="./assets/logo/logoM7.jpg" alt="logotipo da empresa M7 Informática e Variedades" class="h-logo">
+    <header>
+        
+        <marquee behavior="scroll" direction="up"  scrollamount="1" scrolldelay="2" class="informacoes flex">
+            <p>Bem-Vindo(a)...</p>
+            <p>M7 Informática e Variedades</p>
+            <p>O site encontra-se em fase de construção.</p>
+        </marquee>
+        
+        <nav class="header-nav flex">
+            <div class="header_nav-box-logo">
+                <img src="/img/logo/logoM7.jpg" alt="" class="header-nav_logo">
             </div>
-            <ul class="h-menu-left" style="display: none;"></ul>
-            <ul class="h-menu-right">
-                <li></li>
+
+            <ul class="header_nav-menu flex">
+                <li><a href="#inicio">Inicío</a></li>
+                <li><a href="#detalhes">Informações</a></li>
+                <li><a href="#quemsomos">Quem Somos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
-        <h1 class="h-title-main">M7 informática e Variedades</h1>
     </header>
-    <main class="main">
-        <h2 class="m-title">Catálogo Online</h2>
-        <section></section>
+
+    <main class="main-content container">
+        <h1 class="title-principal">M7 Informática e Variedades</h1>
+        <h2 class="title-sub-catalogo">Catálogo Online</h2>
+
+       <!--  <section class="banner">
+            <div class="propaganda">
+
+            </div>
+        </section>
+
+        <section class="semiJoias">
+            <h2 class="title-semiJoias">Semi-Joias 18k</h2>
+            <div class="sub-semiJoias">
+
+            </div>
+        </section> -->
+
+        <section class="produtos flex">
+
+            <h2 class="title-produtos">Produtos</h2>
+
+            <section class="container-cards flex">
+
+                <section class="section__informatica flex">
+    
+                    <article class="card flex">
+                        <figure class="card-box-img">
+                            <img src="/img/produtos/mouse-kp-mu402.png" alt="mouse modelo mouse-kp-mu402, marca knup " class="img-produto">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="title-card">Headphone A-B05 Altomex</h3>
+
+                            <!-- <ul class="card-detalhes">
+                                <li>Modelo.:kp-mu402</li>
+                                <li>Marca.:Knup</li>
+                                <li>Cor-Preto</li>
+                            </ul> -->
+
+                            <p class="preco">
+                                <span class="preco-real">R$15,00</span>
+                            </p>
+                        </div>
+
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="btn_Whatsapp"><ion-icon name="logo-whatsapp"></ion-icon>Whatsapp</a>
+                    </article>
+                    <article class="card flex">
+                        <figure class="card-box-img">
+                            <img src="/img/produtos/mouse-kp-mu402.png" alt="mouse modelo mouse-kp-mu402, marca knup " class="img-produto">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="title-card">Headphone A-B05 Altomex</h3>
+
+                            <!-- <ul class="card-detalhes">
+                                <li>Modelo.:kp-mu402</li>
+                                <li>Marca.:Knup</li>
+                                <li>Cor-Preto</li>
+                            </ul> -->
+
+                            <p class="preco">
+                                <span class="preco-real">R$15,00</span>
+                            </p>
+                        </div>
+
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="btn_Whatsapp"><ion-icon name="logo-whatsapp"></ion-icon>Whatsapp</a>
+                    </article>
+                    <article class="card flex">
+                        <figure class="card-box-img">
+                            <img src="/img/produtos/mouse-kp-mu402.png" alt="mouse modelo mouse-kp-mu402, marca knup " class="img-produto">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="title-card">Headphone A-B05 Altomex</h3>
+
+                            <!-- <ul class="card-detalhes">
+                                <li>Modelo.:kp-mu402</li>
+                                <li>Marca.:Knup</li>
+                                <li>Cor-Preto</li>
+                            </ul> -->
+
+                            <p class="preco">
+                                <span class="preco-real">R$15,00</span>
+                            </p>
+                        </div>
+
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="btn_Whatsapp"><ion-icon name="logo-whatsapp"></ion-icon>Whatsapp</a>
+                    </article>
+                </section>
+                
+            </section>
+        </section>
     </main>
-    <footer></footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
